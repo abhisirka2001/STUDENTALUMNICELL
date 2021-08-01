@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    height: 75%;
+    width:75%;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: aquamarine;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 15px;
+  }
+
+  caption{
+      font-weight:bolder;
+      font-size: larger;
+      font-family: 'Times New Roman', Times, serif;
+      color: crimson;
+  }
+
+  #firsttablediv {
+    width: 100%;
+  }
+  #firsttable {
+    color: white;
+    background-color: green;
+  }
+  #insertitem {
+    width: 100%;
+    padding: 2px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #insertfirsttable > tr {
+    background-color: #31B404;
+  }
